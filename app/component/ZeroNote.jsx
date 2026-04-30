@@ -2,7 +2,7 @@
 import Image from "next/image"
 function ZeroNote() {
     return (
-        <div className="no-note w-full p-4! bg-white rounded-md bg-transparent flex flex-col justify-center items-center border border-dashed border-blue-200 ">
+        <div className="no-note w-full p-4! rounded-md bg-transparent flex flex-col justify-center items-center border border-dashed border-blue-200 ">
             <div className="image-wraper relative w-20 h-20 ">
                 <Image
                     src="/images/note.png"
