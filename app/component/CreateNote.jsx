@@ -61,7 +61,7 @@ export default function CreateNoteForm({ initialData }) {
 
     return (
         <>
-            <div className="min-h-screen bg-blue-50 w-full flex flex-col mx-auto! p-4! gap-6 items-center justify-center">
+            <div className="min-h-screen bg-blue-50 w-full flex flex-col mx-auto! p-4! gap-6 items-center justify-start">
                 <div className="container">
                     <form
                         onSubmit={handlerSubmit}
@@ -115,4 +115,3 @@ export default function CreateNoteForm({ initialData }) {
 }
 
 
-// https://github.com/Mohitkumar157/Note-taking-app.git
