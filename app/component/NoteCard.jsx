@@ -64,7 +64,7 @@ function NoteCard({ note, setNoteData }) {
                         <Calendar className="text-black w-5 h-full" />  Created At : {new Date(note.createdAt).toLocaleDateString('en-GB')}
                     </span>
 
-                    <span className="text-xs text-gray-400 my-3! flex flex-col items-start gap-2 md:flex-row">
+                    <span className="text-xs text-gray-400 my-3! flex flex-col items-center gap-2 md:flex-row">
                         <Clock className="text-black w-5 h-full" /> Updated At : {new Date(note.updatedAt).toLocaleTimeString('en-GB')}
                     </span>
 
